@@ -1,0 +1,295 @@
+
+/*MARK: my style*/
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row h1{
+  font-size: 50px;
+}
+
+
+p{
+  color: white;
+  
+}
+.header{
+  color: white;
+  font-size: 30px;
+}
+
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+p{
+  font-size: 20px;
+  font-style: bold;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.menu li {
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #FFBB5F;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 1), 0 1px 2px rgba(255, 255, 255, 1);
+}
+.menu li:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(51, 255, 0, 1), 0 1px 2px rgba(51, 255, 0, 1);
+}
+
+
+
+
+/*for mobile phone*/
+
+.first{
+  float: left;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.spacer {
+  float: left;
+  width: 0;
+}
+.last{
+  float: left;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px
+}
+.btn {
+  padding-top: 0px;
+}
+
+.last {
+  width: 100%;
+}
+
+.first {
+  width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 600px){
+  /*for tablets*/
+  
+  .btn {
+    padding-top: 0px;
+  }
+
+  .last {
+    width: 100%;
+  }
+
+  .first {
+    width: 100%;
+  }
+
+  .spacer {
+    width: 0;
+    padding: 0;
+  }
+  .spacing {
+    height: 0;
+  }
+}
+@media only screen and (min-width: 700px) {
+
+  /* For desktop: */
+  .top{ height: 30% }
+
+  .last {
+    width: 30%;
+  }
+
+  .first {
+    width: 60%;
+  }
+
+  .spacer {
+    width: 10%;
+    padding: 25px;
+  }
+  .spacing {
+    height: 25%;
+  }
+
+}
+@media only screen and (min-width: 750px) {
+
+  /* For desktop: */
+  .top{ height: 30% }
+
+  .last {
+    width: 30%;
+  }
+
+  .first {
+    width: 50%;
+  }
+
+  .spacer {
+    width: 20%;
+    padding: 25px;
+  }
+  .spacing {
+    height: 25%;
+  }
+
+}
+
+@media only screen and (min-width: 820px) {
+
+  /* For desktop: */
+  .top{ height: 40% }
+
+  .last {
+    width: 30%;
+  }
+
+  .first {
+    width: 40%;
+  }
+
+  .spacer {
+    width: 30%;
+    padding: 25px;
+  }
+  .spacing {
+    height: 25%;
+  }
+
+}
+@media only screen and (min-width: 950px) {
+
+  /* For desktop: */
+  .top{ height: 45% }
+
+  .last {
+    width: 20%;
+  }
+
+  .first {
+    width: 40%;
+  }
+
+  .spacer {
+    width: 40%;
+    padding: 25px;
+  }
+  .spacing {
+    height: 25%;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  /* For desktop: */
+
+  
+  .last {
+    width: 20%;
+  }
+
+  .first {
+    width: 30%;
+  }
+
+  .spacer {
+    width: 50%;
+    padding: 25px;
+  }
+  
+  .top{ 
+    top: 0;
+    height: 50% 
+  }
+  
+  .spacing {
+    height: 25%;
+  }
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  color: white;
+  height: 100%; 
+  overflow: hidden
+}
+.h-100 {
+  height: 100% !important;
+}
+
+a:hover {
+  color: #d6370c;
+  text-decoration: underline;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+header.masthead {
+  /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0) 100%), url("../resource/Background.png");*/
+  background: url("../resource/Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-attachment: scroll;*/
+  background-size: cover;
+  height: 100% !important;
+  margin: 0;
+}
+
+#header {
+  position: absolute;
+  min-height: 100%; 
+}
+
+#header-content {
+  margin-top: 30%;
+  position: relative;
+  min-height: 70%;
+  padding: 1%;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background: rgba(40, 40, 100, 0.25);*/
+}
+
+/*#header, #header * {
+  background: rgba(40, 40, 100, 0.25);
+}*/
+
+
